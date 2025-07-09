@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+langchain
+chromadb
+transformers
+sentence-transformers
+unstructured
+pdfminer.six
+python-docx
