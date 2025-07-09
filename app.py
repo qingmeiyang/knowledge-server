@@ -12,5 +12,6 @@ async def ingest_knowledge(file: UploadFile = File(...)):
 
 @app.post("/query")
 def query_qa(question: str = Form(...)):
-    answer = query_knowledge(question)
-    return {"answer": answer}
+    result = query_knowledge(question)
+    return result
+
